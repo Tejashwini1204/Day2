@@ -1,0 +1,17 @@
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: blue;
+    max-width: 800px; /* Limiting width for better readability */
+    margin: 20px auto; /* Centering the paragraph */
+    text-align: justify; /* Justifying the text for a neat appearance */
+    background-color: aquamarine;
+    direction: rtl;
+    text-transform: uppercase;
+    text-indent: 0cap;
+    letter-spacing: normal;
+    line-height: normal;
+    word-spacing: normal;
+    white-space: 0;
+    text-shadow: 5cm;
+}

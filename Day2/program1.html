@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nested Navigation Menu</title>
+    <style>
+        /* Basic styling for the navigation menu */
+        nav {
+            font-family: Arial, sans-serif;
+            width: 250px;
+            background-color: #f4f4f4;
+            padding: 15px;
+            border-radius: 8px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        li {
+            margin: 8px 0;
+        }
+
+        a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+
+        /* Styling for nested lists */
+        .nested {
+            padding-left: 20px;
+        }
+
+        /* Hover effect on links */
+        li a:hover {
+            color: #007BFF;
+        }
+    </style>
+</head>
+<body>
+
+<nav>
+    <ul>
+        <!-- Electronics Menu -->
+        <li><a href="#">Electronics</a>
+            <ul class="nested">
+                <li><a href="#">Mobile Phones</a></li>
+                <li><a href="#">Laptops</a></li>
+                <li><a href="#">Cameras</a></li>
+                <li><a href="#">Furniture</a>
+                    <ul class="nested">
+                        <li><a href="#">Sofas</a></li>
+                        <li><a href="#">Beds</a></li>
+                        <li><a href="#">Dining Tables</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+
+        <!-- Clothing Menu -->
+        <li><a href="#">Clothing</a>
+            <ul class="nested">
+                <li><a href="#">Men's Wear</a></li>
+                <li><a href="#">Women's Wear</a></li>
+                <li><a href="#">Kids' Wear</a></li>
+            </ul>
+        </li>
+    </ul>
+</nav>
+
+</body>
+</html>

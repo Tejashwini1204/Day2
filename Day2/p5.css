@@ -1,0 +1,14 @@
+/* 1. Using element selector to change the color of all paragraph tags */
+p {
+    color: blue; /* This will change the color of all <p> elements to blue */
+}
+
+/* 2. Using class selector to change the color of a specific paragraph */
+.highlight {
+    color: green; /* This will change the color of paragraph with class 'highlight' to green */
+}
+
+/* 3. Using ID selector to change the color of a specific paragraph */
+#special {
+    color: red; /* This will change the color of the paragraph with ID 'special' to red */
+}

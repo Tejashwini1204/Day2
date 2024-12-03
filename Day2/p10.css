@@ -1,0 +1,79 @@
+/* General styling for the body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #1fb9e7f3;
+    flex-wrap: wrap;
+}
+
+/* Container for the images */
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+/* Common styles for the images */
+.border-image {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+/* Border styles */
+
+/* 1. Solid border */
+.solid {
+    border: 5px solid #333;
+}
+
+/* 2. Dotted border */
+.dotted {
+    border: 5px dotted #333;
+}
+
+/* 3. Dashed border */
+.dashed {
+    border: 5px dashed #333;
+}
+
+/* 4. Double border */
+.double {
+    border: 5px double #333;
+}
+
+/* 5. Groove border */
+.groove {
+    border: 5px groove #333;
+}
+
+/* 6. Ridge border */
+.ridge {
+    border: 5px ridge #333;
+}
+
+/* 7. Inset border */
+.inset {
+    border: 5px inset #333;
+}
+
+/* 8. Outset border */
+.outset {
+    border: 5px outset #333;
+}
+
+/* 9. None border */
+.none {
+    border: none;
+}
+
+/* 10. Transparent border */
+.transparent {
+    border: 5px solid transparent;
+}
